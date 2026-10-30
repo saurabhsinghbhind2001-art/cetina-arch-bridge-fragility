@@ -1,0 +1,12 @@
+{
+  "title": "Seismic fragility of a long-span RC deck arch bridge under three-component and spatially varying ground motion: data and scripts",
+  "upload_type": "dataset",
+  "description": "Ground-motion record list with scale factors (S1), peak responses of all nonlinear time-history analyses (S2), fragility parameters with exceedance counts (S3) and the OpenSeesPy analysis scripts (S4) for the Cetina arch bridge fragility study.",
+  "creators": [
+    {"name": "Singh, Saurab", "affiliation": "Maulana Azad National Institute of Technology (MANIT), Bhopal, India"},
+    {"name": "Raheem, Juned", "affiliation": "Maulana Azad National Institute of Technology (MANIT), Bhopal, India"},
+    {"name": "Kaurav, Dheeraj", "affiliation": "Maulana Azad National Institute of Technology (MANIT), Bhopal, India"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["arch bridge", "seismic fragility", "spatially varying ground motion", "vertical ground motion", "OpenSeesPy"]
+}

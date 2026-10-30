@@ -1,0 +1,132 @@
+case,source_file,state,median_SaT1_g,beta_record_to_record,exceed_0.1g,exceed_0.2g,exceed_0.3g,exceed_0.4g,exceed_0.5g,exceed_0.6g,exceed_0.8g,exceed_1.0g,exceed_1.2g,exceed_1.5g,exceed_1.8g,exceed_2.2g,exceed_2.6g,exceed_3.0g
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,system slight,0.49,0.318,0/10,0/10,1/10,2/10,5/10,8/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,system moderate,0.981,0.361,0/10,0/10,0/10,0/10,1/10,1/10,3/10,3/10,7/10,9/10,10/10,10/10,10/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,system extensive,1.47,0.355,0/10,0/10,0/10,0/10,0/10,0/10,1/10,1/10,2/10,6/10,7/10,9/10,9/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,system complete,1.715,0.391,0/10,0/10,0/10,0/10,0/10,0/10,1/10,1/10,0/10,4/10,6/10,7/10,8/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,C5 long moderate,1.107,0.402,0/10,0/10,0/10,0/10,1/10,1/10,2/10,2/10,5/10,8/10,9/10,10/10,10/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,C1 trans moderate,1.689,0.283,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,4/10,5/10,7/10,10/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,arch springing transverse moderate,1.476,0.456,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,4/10,5/10,7/10,8/10,9/10,9/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,arch springing vertical moderate,1.98,0.428,0/10,0/10,0/10,0/10,0/10,0/10,1/10,1/10,0/10,1/10,4/10,7/10,7/10,9/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,C5/C6 shear failure (Priestley),2.727,0.406,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,4/10,6/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,"C5/C6 shear failure (EC truss, lower bound)",0.507,0.376,0/10,0/10,2/10,2/10,4/10,6/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+multi-support 1000 m/s (10 records),fragility/fragility_mse_va1000.json,collapse,2.727,0.406,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,4/10,6/10
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,system slight,0.525,0.312,,0/10,,2/10,,,9/10,,10/10,,10/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,system moderate,0.881,0.453,,0/10,,1/10,,,3/10,,7/10,,10/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,system extensive,1.498,0.327,,0/10,,0/10,,,1/10,,1/10,,7/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,system complete,1.878,0.446,,0/10,,0/10,,,1/10,,0/10,,5/10,,8/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,C5 long moderate,1.139,0.358,,0/10,,0/10,,,2/10,,5/10,,9/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,C1 trans moderate,1.704,0.231,,0/10,,0/10,,,0/10,,1/10,,5/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,arch springing transverse moderate,1.341,0.376,,0/10,,0/10,,,1/10,,4/10,,7/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,arch springing vertical moderate,1.642,0.411,,0/10,,0/10,,,1/10,,1/10,,6/10,,9/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,C5/C6 shear failure (Priestley),2.59,0.274,,0/10,,0/10,,,0/10,,0/10,,1/10,,5/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,"C5/C6 shear failure (EC truss, lower bound)",0.491,0.348,,0/10,,3/10,,,9/10,,10/10,,10/10,,10/10,
+multi-support 500 m/s (10 records),fragility/fragility_mse_va500.json,collapse,2.59,0.274,,0/10,,0/10,,,0/10,,0/10,,1/10,,5/10,
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,system slight,0.501,0.317,0/10,0/10,1/10,2/10,4/10,8/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,system moderate,1.014,0.299,0/10,0/10,0/10,0/10,0/10,1/10,2/10,4/10,7/10,9/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,system extensive,1.594,0.312,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,4/10,6/10,9/10,9/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,system complete,1.79,0.251,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,3/10,3/10,9/10,9/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,C5 long moderate,1.075,0.323,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,6/10,8/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,C1 trans moderate,1.586,0.275,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,6/10,9/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,arch springing transverse moderate,1.508,0.191,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,4/10,8/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,arch springing vertical moderate,2.213,0.292,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,4/10,3/10,7/10,9/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,C5/C6 shear failure (Priestley),1.018,0.506,0/10,0/10,0/10,0/10,0/10,2/10,4/10,5/10,7/10,9/10,9/10,7/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,"C5/C6 shear failure (EC truss, lower bound)",0.501,0.317,0/10,0/10,1/10,2/10,4/10,8/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, force-based springings (10 records)",fragility/fragility_uniform_kcomm.json,collapse,2.43,0.253,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,3/10,6/10,8/10
+uniform XY (35 records),fragility/fragility_xy.json,system slight,0.325,0.364,0/35,3/35,15/35,26/35,30/35,33/35,35/35,35/35,35/35,35/35,35/35,35/35,35/35,34/34
+uniform XY (35 records),fragility/fragility_xy.json,system moderate,0.761,0.411,0/35,0/35,1/35,2/35,6/35,9/35,16/35,28/35,30/35,34/35,34/35,35/35,35/35,34/34
+uniform XY (35 records),fragility/fragility_xy.json,system extensive,1.516,0.316,0/35,0/35,0/35,0/35,0/35,0/35,0/35,5/35,7/35,17/35,26/35,30/35,34/35,33/34
+uniform XY (35 records),fragility/fragility_xy.json,system complete,1.649,0.293,0/35,0/35,0/35,0/35,0/35,0/35,0/35,1/35,7/35,12/35,21/35,30/35,33/35,33/34
+uniform XY (35 records),fragility/fragility_xy.json,C5 long moderate,0.805,0.383,0/35,0/35,0/35,1/35,5/35,8/35,16/35,25/35,29/35,34/35,34/35,35/35,35/35,34/34
+uniform XY (35 records),fragility/fragility_xy.json,C1 trans moderate,1.858,0.232,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,1/35,9/35,13/35,25/35,33/35,34/34
+uniform XY (35 records),fragility/fragility_xy.json,arch springing transverse moderate,1.856,0.202,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,1/35,7/35,12/35,26/35,35/35,34/34
+uniform XY (35 records),fragility/fragility_xy.json,arch springing vertical moderate,2.434,0.319,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,2/35,8/35,13/35,21/35,24/34
+uniform XY (35 records),fragility/fragility_xy.json,C5/C6 shear failure (Priestley),2.441,0.305,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,1/35,8/35,13/35,21/35,24/34
+uniform XY (35 records),fragility/fragility_xy.json,"C5/C6 shear failure (EC truss, lower bound)",0.325,0.364,0/35,3/35,15/35,26/35,30/35,33/35,35/35,35/35,35/35,35/35,35/35,35/35,35/35,34/34
+uniform XY (35 records),fragility/fragility_xy.json,collapse,2.441,0.305,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,0/35,1/35,8/35,13/35,21/35,24/34
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,system slight,0.324,0.369,0/33,3/33,14/33,25/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,33/33,33/33,32/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,system moderate,0.77,0.412,0/33,0/33,1/33,2/33,5/33,8/33,15/33,26/33,28/33,32/33,32/33,33/33,33/33,32/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,system extensive,1.546,0.311,0/33,0/33,0/33,0/33,0/33,0/33,0/33,4/33,6/33,15/33,24/33,28/33,32/33,31/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,system complete,1.678,0.292,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,6/33,10/33,19/33,28/33,31/33,31/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,C5 long moderate,0.818,0.38,0/33,0/33,0/33,1/33,4/33,7/33,15/33,23/33,27/33,32/33,32/33,33/33,33/33,32/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,C1 trans moderate,1.852,0.238,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,9/33,13/33,23/33,31/33,32/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,arch springing transverse moderate,1.849,0.207,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,7/33,12/33,24/33,33/33,32/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,arch springing vertical moderate,2.475,0.333,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,2/33,8/33,11/33,19/33,22/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,C5/C6 shear failure (Priestley),2.482,0.318,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,8/33,11/33,19/33,22/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,"C5/C6 shear failure (EC truss, lower bound)",0.324,0.369,0/33,3/33,14/33,25/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,33/33,33/33,32/32
+uniform XY (33 matched records),fragility/fragility_xy_matched33.json,collapse,2.482,0.318,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,8/33,11/33,19/33,22/32
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,system slight,0.3,0.433,1/33,4/33,15/33,27/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,32/32,33/33,33/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,system moderate,0.769,0.402,0/33,0/33,0/33,2/33,6/33,9/33,15/33,26/33,28/33,32/33,32/33,32/32,33/33,33/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,system extensive,1.491,0.3,0/33,0/33,0/33,0/33,0/33,0/33,1/33,3/33,7/33,15/33,26/33,30/32,32/33,32/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,system complete,1.67,0.289,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,6/33,9/33,21/33,27/32,31/33,32/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,C5 long moderate,0.82,0.396,0/33,0/33,0/33,2/33,4/33,7/33,14/33,22/33,27/33,32/33,32/33,32/32,33/33,33/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,C1 trans moderate,1.842,0.238,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,10/33,13/33,21/32,32/33,33/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,arch springing transverse moderate,1.772,0.23,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,2/33,9/33,16/33,25/32,32/33,33/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,arch springing vertical moderate,2.33,0.311,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,26/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,C5/C6 shear failure (Priestley),2.37,0.329,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,24/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,"C5/C6 shear failure (EC truss, lower bound)",0.306,0.432,1/33,4/33,14/33,26/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,32/32,33/33,33/33
+"uniform XYZ, force-based springings (33 records)",fragility/fragility_xyz.json,collapse,2.37,0.329,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,24/33
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,system slight,0.302,0.377,0/10,1/10,5/10,9/10,9/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,system moderate,0.737,0.358,0/10,0/10,0/10,1/10,2/10,2/10,4/10,9/10,9/10,10/10,10/10,10/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,system extensive,1.462,0.32,0/10,0/10,0/10,0/10,0/10,0/10,1/10,1/10,2/10,5/10,7/10,9/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,system complete,1.625,0.32,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,7/10,8/10,9/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,C5 long moderate,0.769,0.384,0/10,0/10,0/10,1/10,2/10,2/10,4/10,7/10,9/10,10/10,10/10,10/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,C1 trans moderate,1.786,0.249,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,3/10,4/10,7/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,arch springing transverse moderate,1.692,0.215,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,3/10,5/10,9/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,arch springing vertical moderate,2.439,0.27,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,4/10,5/10,8/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,C5/C6 shear failure (Priestley),2.508,0.299,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,4/10,5/10,7/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,"C5/C6 shear failure (EC truss, lower bound)",0.312,0.365,0/10,1/10,4/10,9/10,9/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform XYZ, mass-proportional damping (10 records)",fragility/fragility_xyz_mass_10rec.json,collapse,2.508,0.299,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,4/10,5/10,7/10
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,system slight,0.3,0.433,1/33,4/33,15/33,27/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,32/32,33/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,system moderate,0.769,0.402,0/33,0/33,0/33,2/33,6/33,9/33,15/33,26/33,28/33,32/33,32/33,32/32,33/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,system extensive,1.081,0.396,0/33,0/33,0/33,0/33,1/33,4/33,8/33,11/33,17/33,27/33,32/33,31/32,32/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,system complete,1.292,0.36,0/33,0/33,0/33,0/33,0/33,1/33,2/33,9/33,13/33,21/33,28/33,31/32,32/33,32/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,C5 long moderate,0.82,0.396,0/33,0/33,0/33,2/33,4/33,7/33,14/33,22/33,27/33,32/33,32/33,32/32,33/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,C1 trans moderate,1.842,0.238,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,10/33,13/33,21/32,32/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,arch springing transverse moderate,1.772,0.23,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,2/33,9/33,16/33,25/32,32/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,arch springing vertical moderate,2.33,0.311,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,26/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,C5/C6 shear failure (Priestley),2.37,0.329,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,24/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,"C5/C6 shear failure (EC truss, lower bound)",0.306,0.432,1/33,4/33,14/33,26/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,32/32,33/33,33/33
+"uniform XYZ, lightly confined hollow walls (33 records)",review_checks/frag_xyz_limit_states_lowstrain.json,collapse,2.37,0.329,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,24/33
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,system slight,0.405,0.343,0/10,0/10,2/10,4/10,9/10,9/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,system moderate,0.962,0.342,0/10,0/10,0/10,0/10,1/10,1/10,2/10,4/10,8/10,9/10,10/10,10/10,10/10,10/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,system extensive,1.939,0.308,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,8/10,8/10,9/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,system complete,2.139,0.301,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,2/10,6/10,8/10,8/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,C5 long moderate,1.035,0.321,0/10,0/10,0/10,0/10,0/10,1/10,2/10,4/10,7/10,8/10,10/10,10/10,10/10,10/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,C1 trans moderate,1.883,0.247,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,6/10,10/10,10/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,arch springing transverse moderate,2.295,0.232,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,5/10,6/10,9/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,arch springing vertical moderate,2.917,0.282,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,3/10,3/10,5/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,C5/C6 shear failure (Priestley),1.963,0.746,0/10,0/10,0/10,0/10,0/10,1/10,2/10,1/10,4/10,3/10,3/10,6/10,7/10,7/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,"C5/C6 shear failure (EC truss, lower bound)",0.405,0.343,0/10,0/10,2/10,4/10,9/10,9/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform, Rayleigh damping (10 records)",review_checks/fragility_uniform_rayleigh.json,collapse,2.945,0.254,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,3/10,5/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,system slight,0.501,0.317,0/10,0/10,1/10,2/10,4/10,8/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,system moderate,1.014,0.299,0/10,0/10,0/10,0/10,0/10,1/10,2/10,4/10,7/10,9/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,system extensive,1.417,0.24,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,3/10,5/10,8/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,system complete,1.561,0.244,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,3/10,4/10,5/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,C5 long moderate,1.055,0.318,0/10,0/10,0/10,0/10,0/10,1/10,2/10,3/10,7/10,8/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,C1 trans moderate,1.655,0.242,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,3/10,5/10,9/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,arch springing transverse moderate,1.414,0.227,0/10,0/10,0/10,0/10,0/10,0/10,0/10,1/10,3/10,4/10,9/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,arch springing vertical moderate,2.252,0.238,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,3/10,4/10,7/10,9/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,C5/C6 shear failure (Priestley),1.547,0.321,0/10,0/10,0/10,0/10,0/10,0/10,1/10,1/10,1/10,3/10,8/10,8/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,"C5/C6 shear failure (EC truss, lower bound)",0.501,0.317,0/10,0/10,1/10,2/10,4/10,8/10,9/10,10/10,10/10,10/10,10/10,10/10,10/10,10/10
+"uniform reference, committed-stiffness damping, displacement-based springings (10 records)",review_checks/fragility_uref_dispspr.json,collapse,2.43,0.253,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,0/10,2/10,3/10,6/10,8/10
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,system slight,0.3,0.433,1/33,4/33,15/33,27/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,32/32,33/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,system moderate,0.767,0.389,0/33,0/33,0/33,2/33,6/33,9/33,15/33,25/33,28/33,32/33,33/33,32/32,33/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,system extensive,1.428,0.275,0/33,0/33,0/33,0/33,0/33,0/33,1/33,3/33,9/33,17/33,28/33,29/32,33/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,system complete,1.574,0.259,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,7/33,12/33,23/33,29/32,32/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,C5 long moderate,0.823,0.386,0/33,0/33,0/33,2/33,4/33,7/33,14/33,20/33,27/33,32/33,33/33,32/32,33/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,C1 trans moderate,1.834,0.232,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,9/33,13/33,24/32,31/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,arch springing transverse moderate,1.555,0.209,0/33,0/33,0/33,0/33,0/33,0/33,0/33,1/33,4/33,13/33,24/33,31/32,33/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,arch springing vertical moderate,2.35,0.32,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,3/33,8/33,14/32,20/33,25/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,C5/C6 shear failure (Priestley),2.441,0.319,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,2/33,7/33,12/32,20/33,23/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,"C5/C6 shear failure (EC truss, lower bound)",0.306,0.432,1/33,4/33,14/33,26/33,28/33,31/33,33/33,33/33,33/33,33/33,33/33,32/32,33/33,33/33
+"uniform XYZ reference, displacement-based springings from 1.0 g (33 records)",review_checks/xyz_dispspr_combined/fragility_xyz_db.json,collapse,2.441,0.319,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,0/33,2/33,7/33,12/32,20/33,23/33
+"multi-support 2000 m/s (10 records, 6 levels)",review_checks/va2000_cmp.json,system slight,0.558,0.359,,,,,,,,,,,,,,
+"multi-support 2000 m/s (10 records, 6 levels)",review_checks/va2000_cmp.json,system moderate,1.014,0.258,,,,,,,,,,,,,,
+"multi-support 2000 m/s (10 records, 6 levels)",review_checks/va2000_cmp.json,system extensive,1.597,0.324,,,,,,,,,,,,,,
+"multi-support 2000 m/s (10 records, 6 levels)",review_checks/va2000_cmp.json,system complete,2.02,0.26,,,,,,,,,,,,,,
+"multi-support 2000 m/s (10 records, 6 levels)",review_checks/va2000_cmp.json,collapse,2.381,0.292,,,,,,,,,,,,,,
+"uniform reference, DB springings (10 records, same 6 levels as 2000 m/s)",review_checks/va2000_cmp.json,system slight,0.525,0.312,,,,,,,,,,,,,,
+"uniform reference, DB springings (10 records, same 6 levels as 2000 m/s)",review_checks/va2000_cmp.json,system moderate,1.014,0.258,,,,,,,,,,,,,,
+"uniform reference, DB springings (10 records, same 6 levels as 2000 m/s)",review_checks/va2000_cmp.json,system extensive,1.412,0.248,,,,,,,,,,,,,,
+"uniform reference, DB springings (10 records, same 6 levels as 2000 m/s)",review_checks/va2000_cmp.json,system complete,1.576,0.315,,,,,,,,,,,,,,
+"uniform reference, DB springings (10 records, same 6 levels as 2000 m/s)",review_checks/va2000_cmp.json,collapse,2.381,0.292,,,,,,,,,,,,,,
